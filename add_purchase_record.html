@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Purchase Record</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Add Purchase Record</h2>
+        <form action="php/add_purchase_record.php" method="post">
+            <input type="date" name="date_of_purchase" required>
+            <input type="text" name="name" placeholder="Name of Property" required>
+            <input type="number" name="total_amount_paid" placeholder="Total Amount Paid" required>
+            <input type="text" name="total_area" placeholder="Total Area" required>
+            <button type="submit">Add Record</button>
+        </form>
+    </div>
+</body>
+</html>
